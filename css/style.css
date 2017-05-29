@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.o-s{
+  font-family: 'Open Sans', sans-serif;
+}
+.raleway{
+  font-family: 'Raleway', sans-serif;
+}
+/*Estilos para el navbar*/
+nav div img{
+  width: 8rem;
+}
+.bg-white{
+  background-color: #FFF;
+}
+nav{
+  margin-top: 2rem;
+}
+.no-border-nav{
+  border: none;
+}
+.padd-left{
+  padding-left: 15rem !important;
+}
+
+@media(max-width: 736px){
+  .padd-left{
+    padding-left: none;
+  }
+  .height{
+    height: 65px;
+  }
+}
+.no-margin{
+  margin: 0 !important;
+}
+.no-padd{
+  padding: 0 !important;
+}
+/*@media (min-width:640px) {
+  .max-width{
+    max-width: 1349px;
+  }
+}
+@media (max-width: 360px) {
+  .max-width{
+    max-width: 360px;
+  }
+}*/
+
+/*Estilos para el hero*/
+.max-height{
+  max-height: 600px;
+}
+
+.bg-labcar{
+  background-color: #f7b617;
+}
+.hero-text{
+  position: absolute;
+  top: 1400px;
+  right: 0;
+  z-index: 100;
+}
+.text-white{
+  color: #fff;
+}
+.taxi{
+  width: 100%
+}
+.size-img{
+  padding-left: 10px;
+  width: 80px;
+  height: 15px;
+}
+.text-logo-white{
+  display: inline-block;
+}
