@@ -77,11 +77,11 @@ nav{
   display: inline-block;
 }
 
-@media (max-width:640px){
+/*@media (max-width:640px){
   #hero h3{
     font-size: 20rem;
   }
-}
+}*/
 
 #hero p{
   display: block;
@@ -99,4 +99,14 @@ nav{
   margin-bottom: 20px;
   padding: 10px 15px;
   font-weight: 700;
+}
+.mrg{
+  margin: 30px 30px 30px 0px;
+}
+.padd{
+  padding: 20px;
+}
+.border-white{
+  border: 1px solid #fff;
+  border-left: none;
 }
