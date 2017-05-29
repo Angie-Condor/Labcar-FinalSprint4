@@ -8,7 +8,7 @@
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar bg-white o-s no-border-nav height">
@@ -27,24 +27,34 @@
         </div>
       </div>
     </nav>
-    <section class="hero">
+    <section id="hero">
       <div class="container-fluid no-padd">
         <div class="row no-margin">
           <div class="col-xs-12 col-md-12 no-padd">
             <img class="taxi" src="assets/img/taxi.jpg" alt="taxi-labcar">
-            <div class="col-md-4 hero-text bg-labcar">
-              <div class="col-md-12 raleway text-white">
-                <h3>Disfruta del viaje<br>Eres dueño de tu tiempo</h3>
-                <div class="col-xs-6 no-padd">
-                  <h4 class="text-logo-white">Viaja con</h4><img src="assets/img/logo-blanco.png" class="size-img">
+            <div class="col-md-4 col-xs-10 hero-text bg-labcar">
+              <div class="col-md-12 col-xs-12 raleway text-white margin-bottom">
+                <h3 class="hidden-xs">Disfruta del viaje<br>Eres dueño de tu tiempo</h3>
+                <div class="col-xs-12 no-padd margin-bottom">
+                  <h4 class="inline-block hidden-xs">Viaja con</h4>
+                  <h4 class="inline-block visible-xs">Comienza a viajar con</h4>
+                  <img src="assets/img/logo-blanco.png" class="size-img">
                 </div>
-                <p>REGISTRATE</p>
-                <hr>
+                <p class="hidden-xs">REGISTRATE</p>
+                <div class="col-xs-12 margin-bottom hidden-xs">
+                  <hr class="inline-block">
+                  <span class="inline-block">O bien</span>
+                  <hr class="inline-block">
+                </div>
+                <div class="col-md-7 col-xs-9 tipo-btn"> <span class="hidden-xs">Conviértete en un conductor </span><span class="visible-xs">Descarga el app</span></div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <section id="info">
+
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="Bootstrap/js/bootstrap.js"></script>

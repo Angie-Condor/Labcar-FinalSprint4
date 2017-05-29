@@ -40,30 +40,27 @@ nav{
 .no-padd{
   padding: 0 !important;
 }
-/*@media (min-width:640px) {
-  .max-width{
-    max-width: 1349px;
-  }
-}
-@media (max-width: 360px) {
-  .max-width{
-    max-width: 360px;
-  }
-}*/
 
 /*Estilos para el hero*/
 .max-height{
   max-height: 600px;
 }
-
 .bg-labcar{
   background-color: #f7b617;
 }
 .hero-text{
   position: absolute;
-  top: 1400px;
+  top: 30%;
   right: 0;
   z-index: 100;
+}
+@media(min-width:640px){
+  .hero-text{
+    position: absolute;
+    top: 70%;
+    right: 0;
+    z-index: 100;
+  }
 }
 .text-white{
   color: #fff;
@@ -76,6 +73,30 @@ nav{
   width: 80px;
   height: 15px;
 }
-.text-logo-white{
+.inline-block{
   display: inline-block;
+}
+
+@media (max-width:640px){
+  #hero h3{
+    font-size: 20rem;
+  }
+}
+
+#hero p{
+  display: block;
+}
+#hero hr{
+  width: 100px;
+}
+.margin-bottom{
+  margin-bottom: 10px;
+}
+.tipo-btn{
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-weight: 700;
 }
