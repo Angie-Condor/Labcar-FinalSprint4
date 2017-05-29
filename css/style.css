@@ -110,15 +110,32 @@ nav{
   border: 1px solid #fff;
   border-left: none;
 }
+#info img{
+  width: 100%;
+}
 
 #info h3{
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 0.09rem;
 }
-#info p{
+@media (max-width:640px) {
+  #info h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .parrafos p{
+    font-size: 0.5rem;
+    margin-top: 10px;
+    letter-spacing: 0.03rem;
+  }
+}
+.parrafos p{
   font-size: 2rem;
   line-height: 3rem;
   margin-top: 30px;
   letter-spacing: 0.03rem;
+}
+#conduce img{
+  width: 100%;
 }
